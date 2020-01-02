@@ -10,9 +10,13 @@ Yolo is a faster object detection algorithm in computer vision and first describ
 
 This notebook implements an object detection based on a pre-trained model - [YOLOv3 Pre-trained Weights (yolov3.weights) (237 MB)](https://pjreddie.com/media/files/yolov3.weights).  The model architecture is called a “DarkNet” and was originally loosely based on the VGG-16 model. 
 
-# For details of this project please check [notebook](https://github.com/patrick013/Object-Detection---Yolov3/blob/master/Object_Detection_Yolo.ipynb)
+## Yolo
+![yolo](http://www.nishanpantha.com.np/img/post-images/2019-04-18-object-detection-yolo/4.png)
 
-# Reference
+## Details
+For details of this project please check [notebook](https://github.com/patrick013/Object-Detection---Yolov3/blob/master/Object_Detection_Yolo.ipynb)
+
+## Reference
 > - Redmon, J., Divvala, S., Girshick, R., & Farhadi, A. (2016). You only look once: Unified, real-time object detection. In Proceedings of the IEEE conference on computer vision and pattern recognition (pp. 779-788).
 > - Darknet, https://github.com/pjreddie/darknet
 > - YOLO3 (Detection, Training, and Evaluation), https://github.com/experiencor/keras-yolo3

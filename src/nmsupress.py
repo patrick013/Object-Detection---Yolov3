@@ -1,3 +1,4 @@
+import numpy as np
 
 def _decode_box_coor(box):
     return (box.xmin, box.ymin, box.xmax, box.ymax)
@@ -41,3 +42,5 @@ def do_nms(data_dic, nms_thresh):
                 final_scores.append(e[0])
 
     return (final_boxes, final_labels, final_scores)
+
+

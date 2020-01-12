@@ -47,8 +47,8 @@ class Detector():
         yhat=self._predict(image)
         boxes=self._conver_to_boxes(yhat,image_width,image_height)
         dic = encoder_dic(box_filter(boxes))
-        final_data=do_nms(dic, NMS_SCORE)
-        draw_boxes(image_path, final_data)
+        valid_data=do_nms(dic,NMS_SCORE)
+        draw_boxes(image_path,valid_data)
 
 if __name__=="__main__":
     path = input("Where is your image path? \n")
